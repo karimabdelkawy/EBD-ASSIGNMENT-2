@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Supplies</title>
+    <link rel="stylesheet" href="page.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <h1>Student Supplies</h1>
+        <p>Find what you need for campus.</p>
+      </header>
+      <ul id="list"></ul>
+      <button id="pick" type="button">Pick these</button>
+    </main>
+    <script type="module" src="page.js"></script>
+    <script type="module">
+      import { start } from "./page.js";
+      start();
+    </script>
+  </body>
+</html>
